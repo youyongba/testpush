@@ -1,0 +1,1000 @@
+    6  node nginxdomain.js 
+    7  ls
+    8  cd ..
+    9  ls
+   10  vi /etc/nginx/conf.d/default.conf 
+   11  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+   12  nginx -s reload
+   13  cd VideoChatTut/
+   14  node server.js 
+   15  ls
+   16  pm2 start server.js --name webrtc
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd webmedia-demo/
+   21  cd ..
+   22  ls
+   23  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+   24  ls
+   25  cd node/expressdemo/api.youyong.ba/
+   26  ls
+   27  vi package.json 
+   28  pm2 start ./bin/www --name=api
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd m.youyong.ba-pwa/
+   33  ls
+   34  vi package.json 
+   35  NODE_ENV=production pm2 start ./server/index.js --name m
+   36  pm2 desc m
+   37  tail -F /root/.pm2/logs/m-error-3.log
+   38  ls
+   39  vi pages/index.js 
+   40  ls
+   41  vi pages/index.js 
+   42  ls
+   43  vi actions/About/index.js 
+   44  vi pages/index.js 
+   45  ls
+   46  vi actions/About/index.js 
+   47  vi pages/index.js 
+   48  pm2 restart m
+   49  npm run build
+   50  git branch
+   51  pwd
+   52  ls
+   53  pm2 delete m
+   54  cd ..
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd m.youyong.ba-immutable/
+   59  ls
+   60  NODE_ENV=production pm2 start ./server/index.js --name m
+   61  pm2 list
+   62  pm2 desc m
+   63  tail -f /root/.pm2/logs/m-error-4.log
+   64  nmap 127.0.0.1
+   65  service mysql start
+   66  find / -name mysqld
+   67  /usr/libexec/mysqld start
+   68  netstat -nptl
+   69  ls
+   70  history
+   71  history > history.txt
+   72  vi history.txt 
+   73  ls
+   74  /usr/bin/mysql start
+   75  vi /etc/my.cnf
+   76  ls
+   77  vi /etc/my.cnf
+   78  systemctl start mariadb
+   79  nmap 127.0.0.1
+   80  npm install -g verdaccio
+   81  verdaccio -h 
+   82  verdaccio npm install -g verdaccio --unssafe-perm
+   83  npm uninstall -g verdaccio
+   84  npm install -g verdaccio --unsafe-perm
+   85  find / -name config.yaml
+   86  verdaccio -h
+   87  find / -name config.yaml
+   88  ls
+   89  verdaccio -l 0.0.0.0:4873
+   90  ls
+   91  vi /root/.config/verdaccio/config.yaml 
+   92  verdaccio 
+   93  vi /root/.config/verdaccio/config.yaml 
+   94  verdaccio 
+   95  vi /root/.config/verdaccio/config.yaml 
+   96  version -l 0.0.0.0:8801 
+   97  verdaccio -l 0.0.0.0:8801 
+   98  nmap 127.0.0.1
+   99  verdaccio -l 0.0.0.0:8083
+  100  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  101  nginx -s reload
+  102  npm run start verdaccio -l 0.0.0.0:8083
+  103  pm2 start verdaccio -l 0.0.0.0:8083 -name verdaccio
+  104  pm2 list
+  105  pm2 start -name verdaccio verdaccio -l 0.0.0.0:8083
+  106  pm2 start -name verdaccio 
+  107  pm2 start verdaccio 
+  108  nmap 127.0.0.1
+  109  which verdacio
+  110  which verdaccio
+  111  npm start -name verdaccio /usr/local/bin/verdaccio -l 0.0.0.0:8083
+  112  npm start /usr/local/bin/verdaccio -l 0.0.0.0:8083
+  113  pm2  start -name verdaccio /usr/local/bin/verdaccio -l 0.0.0.0:8083
+  114  pm2 list
+  115  pm2 delete -a
+  116  pm2 list
+  117  pm2 delete -a
+  118  pm2 delete -id 5
+  119  pm2 delete -id 6
+  120  pm2 desc npm
+  121  pm2 start /usr/local/bin/verdaccio -l 0.0.0.0:8083
+  122  pm2 desc verdaccio
+  123  pm2 list
+  124  nmap 127.0.0.1
+  125  pm2 delete verdaccio
+  126  /usr/local/bin/verdaccio -l 0.0.0.0:8083
+  127  vi /root/.config/verdaccio/config.yaml 
+  128  /usr/local/bin/verdaccio
+  129  pm2 start /usr/local/bin/verdaccio
+  130  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  131  nmap 127.0.0.1
+  132  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  133  nginx -s reload
+  134  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  135  nginx -s reload
+  136  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  137  nginx -s reload
+  138  nmap 127.0.0.1
+  139  nginx -s reload
+  140  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  141  nginx -s reload
+  142  ls
+  143  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  144  nginx -s reload
+  145  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  146  nginx -s reload
+  147  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  148  nginx -s reload
+  149  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  150  nginx -s reload
+  151  pm2 list
+  152  pm2 restart verdacio
+  153  vi ~/.config/verdaccio/config.yaml 
+  154  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  155  nginx -s reload
+  156  npm stop verdaccio
+  157  pm2 list
+  158  pm2 stop verdaccio
+  159  verdaccio 
+  160  vi /root/.config/verdaccio/config.yaml 
+  161  verdaccio 
+  162  vi /root/.config/verdaccio/config.yaml 
+  163  verdaccio 
+  164  vi /root/.config/verdaccio/config.yaml 
+  165  verdaccio 
+  166  openssl genrsa -out /root/.config/verdaccio/verdaccio-key.pem 2048
+  167  openssl req -new -sha256 -key /root/.config/verdaccio/verdaccio-key.pem -out /root/.config/verdaccio/verdaccio-csr.pem
+  168  verdaccio 
+  169  vi /root/.config/verdaccio/config.yaml 
+  170  verdaccio 
+  171  vi /root/.config/verdaccio/config.yaml 
+  172  verdaccio 
+  173  vi /root/.config/verdaccio/config.yaml 
+  174  verdaccio 
+  175  vi /root/.config/verdaccio/config.yaml 
+  176  verdaccio 
+  177  vi /root/.config/verdaccio/config.yaml 
+  178  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  179  vi /root/.config/verdaccio/config.yaml 
+  180  verdaccio 
+  181  vi /root/.config/verdaccio/config.yaml 
+  182  verdaccio 
+  183  vi /root/.config/verdaccio/config.yaml 
+  184  verdaccio 
+  185  vi /root/.config/verdaccio/config.yaml 
+  186  verdaccio 
+  187  nmap 127.0.0.1
+  188  vi /root/.config/verdaccio/config.yaml 
+  189  nmap 127.0.0.1
+  190  verdaccio 
+  191  vi /root/.config/verdaccio/config.yaml 
+  192  verdaccio 
+  193  ls
+  194  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  195  nginx -s reload
+  196  verdaccio 
+  197  pm2 start verdaccio
+  198  nginx -s reload
+  199  ls
+  200  cd easy-mock/
+  201  ls
+  202  cd build/
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd dist/
+  207  ls
+  208  cd ..
+  209  ls
+  210  cd public/
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd views/
+  215  ls
+  216  cd ..
+  217  ls
+  218  cd ..
+  219  ls
+  220  pm2 list
+  221  ls
+  222  cd easyMockPatch/
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd easy-mock/
+  227  ls
+  228  cd node_modules/
+  229  ls
+  230  cd ..
+  231  ls
+  232  cd node_modules/
+  233  grep -r youyong.ba:8080 ./
+  234  ls
+  235  cd ..
+  236  cd dist/
+  237  ls
+  238  grep -r youyong.ba:8080 ./
+  239  vi vendor.b0523a6788e216d74515.js 
+  240  grep -r webpack ./
+  241  lsc
+  242  cd ..
+  243  ls
+  244  cd views/
+  245  ls
+  246  cd ..
+  247  ls
+  248  vi package.json 
+  249  ls
+  250  vi package-lock.json 
+  251  ls
+  252  cd node_modules/
+  253  ls
+  254  ls highlight.js/
+  255  cd highlight.js/
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd easy-mock/
+  262  ls
+  263  cd views/
+  264  ls
+  265  vi index.html 
+  266  ls
+  267  d pages/
+  268  cd pages/
+  269  ls
+  270  cd project
+  271  ls
+  272  vi index.vue 
+  273  ls
+  274  tree
+  275  cd ..
+  276  ls
+  277  tree
+  278  vi router-config.js 
+  279  ls
+  280  cd store/
+  281  ls
+  282  vi index.js 
+  283  cd ..
+  284  ls
+  285  cd api/
+  286  ls
+  287  vi index.js 
+  288  cd ..
+  289  ls
+  290  cd ..
+  291  ls
+  292  cd node_modules/mockjs/
+  293  ls
+  294  cd dist/
+  295  ls
+  296  cd ..
+  297  ls
+  298  pwd
+  299  ls
+  300  cd src/
+  301  ls
+  302  cd ..
+  303  ls
+  304  cd ..
+  305  ls
+  306  cd json
+  307  grep -r webpack ./
+  308  grep -r youyong.ba:8080 ./
+  309  vi ./restc/faas/index.html 
+  310  ls
+  311  pm2 list
+  312  pm2 desc npm
+  313  npm restart npm
+  314  nmap 127.0.0.1
+  315  netstat -nptl
+  316  kill -9 8317
+  317  netstat -nptl
+  318  pm2 restart npm
+  319  ls
+  320  ls
+  321  cd /etc/nginx/conf.d/
+  322  ls
+  323  git init
+  324  git add .
+  325  git commit -m 'aaa'
+  326  ls
+  327  git clone https://github.com/qihong1983/nginxconfigyouyongba.git
+  328  ls
+  329  vi /root/.config/verdaccio/config.yaml 
+  330  ls
+  331  kill -9 28596
+  332  pm2 list
+  333  pm2 restart verdaccio
+  334  pm2 stop verdaccio
+  335  verdaccio
+  336  vi /root/.config/verdaccio/config.yaml 
+  337  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  338  vi /root/.config/verdaccio/config.yaml 
+  339  verdaccio
+  340  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  341  vi /root/.config/verdaccio/config.yaml 
+  342  verdaccio
+  343  vi /root/.config/verdaccio/config.yaml 
+  344  verdaccio
+  345  vi /root/.config/verdaccio/config.yaml 
+  346  verdaccio
+  347  nginx -s reload
+  348  verdaccio
+  349  vi /root/.config/verdaccio/config.yaml 
+  350  verdaccio
+  351  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  352  nginx -s reload
+  353  verdaccio 
+  354  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  355  nginx -s reload
+  356  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  357  nginx -s reload
+  358  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  359  nginx -s reload
+  360  verdaccio 
+  361  ls
+  362  vi /root/.config/verdaccio/config.yaml
+  363  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  364  nginx -s reload
+  365  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  366  nginx -s reload
+  367  verdaccio 
+  368  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  369  nginx -s reload
+  370  verdaccio 
+  371  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  372  nginx -s reload
+  373  verdaccio 
+  374  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  375  nginx -s reload
+  376  verdaccio 
+  377  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  378  nginx -s reload
+  379  verdaccio 
+  380  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  381  nginx -s reload
+  382  verdaccio 
+  383  pm2 start verdaccio
+  384  ls
+  385  git clone https://github.com/qihong1983/nginxconfigyouyongba.git
+  386  ls
+  387  cp -rvf /root/.config/verdaccio/config.yaml nginxconfigyouyongba/
+  388  cp -rvf /etc/nginx/conf.d/ssl_youyong_ba.conf nginxconfigyouyongba/
+  389  cd nginxconfigyouyongba/
+  390  ls
+  391  git add .
+  392  git commit -m 'aaa'
+  393  git push origin master
+  394  ls
+  395  cd nginxconfigyouyongba/
+  396  ls
+  397  git add .
+  398  git commit -m 'aa'
+  399  git branch
+  400  git push origin master
+  401  ssh-keygen -o
+  402  ls
+  403  vi ~/.ssh/id_rsa.pub 
+  404  ls
+  405  vi .git/config 
+  406  git push origin master
+  407  ls
+  408  pm2 list
+  409  pm2 restart verdaccio 
+  410  pm2 restart npm
+  411  ls
+  412  exit
+  413  ls
+  414  exit
+  415  ls
+  416  vi history.txt 
+  417  pm2 list
+  418  ls
+  419  history
+  420  vi history.log 
+  421  vi history.txt 
+  422  ls
+  423  history
+  424  ls
+  425  cd certbot/
+  426  ls
+  427  ./certbot-auto certonly --preferred-challenges dns --manual  --email 55377146@qq.com -d *.youyong.ba -d youyong.ba
+  428  history
+  429  ./certbot-auto certonly --preferred-challenges dns --manual  --email 55377146@qq.com -d *.youyong.ba -d youyong.ba
+  430  ls
+  431  ./certbot-auto renew
+  432  ./certbot renew
+  433  cd
+  434  ls
+  435  cd /
+  436  ls
+  437  cd
+  438  ls
+  439  cd certbot/
+  440  ls
+  441  ./certbot-auto
+  442  ls
+  443  ./letsencrypt-auto
+  444  ./letsencrypt-auto renew
+  445  ./certbot-auto
+  446  ./certbot-auto renew
+  447  pm2 list
+  448  yum install epel-release
+  449  yum install snapd
+  450  systemctl enable --now snapd.socket
+  451  ln -s /var/lib/snapd/snap /snap
+  452  reboot
+  453  ls
+  454  netstat -nptl
+  455  vi history.txt 
+  456  pm2 list
+  457  snap install core
+  458  snap refresh core
+  459  yum remove certbot
+  460  rm /usr/local/bin/certbot-auto
+  461  rm -rf /opt/eff.org/certbot
+  462  snap install --classic certbot
+  463  certbot renew
+  464  vi /etc/letsencrypt/renewal/youyong.ba.conf 
+  465  snap remove --classic certbot
+  466  whereis certbot
+  467  ln -s /snap/bin/certbot /usr/bin/certbot
+  468  certbot certonly  -d "youyong.ba" -d "*.youyong.ba" --manual --preferred-challenges dns-01  --server https://acme-v02.api.letsencrypt.org/directory
+  469  certbot certonly --preferred-challenges dns --manual  --email 55377146@qq.com -d *.youyong.ba -d youyong.ba
+  470  certbot certonly  -d "youyong.ba" -d "*.youyong.ba" --manual --preferred-challenges dns-01  --server https://acme-v02.api.letsencrypt.org/directory
+  471  ls
+  472  service nginxd restart
+  473  vi history.txt 
+  474  nginx -c /etc/nginx/conf.d/ssl_youyong_ba.conf
+  475  nginx
+  476  netstat -nptl
+  477  nginx -c /etc/nginx/conf.d/ssl_youyong_ba.conf
+  478  vi history.txt 
+  479  nginx -c /etc/nginx/nginx.conf
+  480  vi history.txt 
+  481  netstat -anp | grep 80
+  482  netstat -anp | grep 443
+  483  service nginxd restart
+  484  vi history.txt 
+  485  nginx -s reload
+  486  vi history.txt 
+  487  ls
+  488  vi history.log 
+  489  history
+  490  history > history20220105.txt
+  491  vi history20220105.txt 
+  492  pm2 start /usr/local/bin/verdaccio -l 0.0.0.0:8083
+  493  ls
+  494  vi history.txt 
+  495  pm2 list
+  496  pm2 restart verdaccio
+  497  ls
+  498  cd easy-mock/
+  499  ls
+  500  vi .gitignore
+  501  cp -rvf .gitignore gitignorebak
+  502  vi .gitignore
+  503  git push gitee dev
+  504  touch aa.txt
+  505  git push gitee dev
+  506  ls
+  507  git add .
+  508  git commit -m 'asdf'
+  509  git push gitee dev
+  510  ls
+  511  mv gitignorebak .gitignore
+  512  ls
+  513  exit
+  514  ls
+  515  cd easy-mock/
+  516  ls
+  517  vi .git/config 
+  518  ls
+  519  pm2 list
+  520  ls
+  521  cd
+  522  ls
+  523  cd node
+  524  ls
+  525  cd ..
+  526  ls
+  527  cd node
+  528  ls
+  529  cd expressdemo/
+  530  ls
+  531  cd
+  532  ls
+  533  cd easymock/
+  534  ls
+  535  cd easy-mock/
+  536  ls
+  537  cat .git/config 
+  538  history
+  539  ls
+  540  git remote add online https://github.com/qihong1983/ease-mock-repo.git
+  541  git branch
+  542  cd ..
+  543  ls
+  544  cd ..
+  545  ls
+  546  cd easy-mock/
+  547  ls
+  548  git branch
+  549  git branch -a
+  550  git remote add online https://github.com/qihong1983/ease-mock-repo.git
+  551  git push online dev
+  552  git remote add gitee git@gitee.com:youyonba/ease-mock.git
+  553  git push gitee dev
+  554  ls -a
+  555  vi .gitignore 
+  556  ls
+  557  df -h
+  558  yum install -y docker
+  559  ls
+  560  cd /etc/docker/
+  561  ls
+  562  vi daemon.json 
+  563  systemctl restart docker
+  564  curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+  565  chmod +x /usr/local/bin/docker-compose
+  566  docker-compose -v
+  567  ls
+  568  cd
+  569  ls
+  570  mkdir docker
+  571  cd docker/
+  572  ls
+  573  cd ..
+  574  ls
+  575  cd ~
+  576  ls
+  577  wget https://github.com/goharbor/harbor/releases/download/v2.5.3/harbor-online-installer-v2.5.3.tgz
+  578  ls
+  579  mkdir harbor
+  580  cp harbor-online-installer-v2.5.3.tgz harbor
+  581  cd harbor/
+  582  ls
+  583  tar xvf harbor-online-installer-v2.5.3.tgz 
+  584  ls
+  585  cd harbor/
+  586  ls
+  587  cp harbor.yml.tmpl harbor.yml
+  588  ls
+  589  ifconfig
+  590  vi harbor.yml
+  591  mkdir {data,log}
+  592  ls
+  593  pwd
+  594  vi harbor.yml
+  595  ls
+  596  ./install.sh 
+  597  rpm -qa | grep docker
+  598  yum remove docker-common-1.13.1-208.git7d71120.el7_9.x86_64 docker-common-1.13.1-208.git7d71120.el7_9.x86_64 docker-client-1.13.1-208.git7d71120.el7_9.x86_64
+  599  ————————————————
+  600  版权声明：本文为CSDN博主「gblfy」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+  601  rpm -qa | grep docker
+  602  yum remove docker-common-1.13.1-209.git7d71120.el7.centos.x86_64 docker-client-1.13.1-209.git7d71120.el7.centos.x86_64 docker-1.13.1-209.git7d71120.el7.centos.x86_64
+  603  curl -fsSL https://get.docker.com/ | sh
+  604  systemctl restart docker
+  605  systemctl enable docker
+  606  docker -v
+  607  ls
+  608  ./install.sh 
+  609  ls
+  610  vi harbor.yml
+  611  ifconfig eth0
+  612  vi harbor.yml
+  613  ls
+  614  vi harbor.yml
+  615  ifconfig
+  616  docker container ls
+  617  ls
+  618  vi harbor.yml
+  619  vi docker-compose.yml 
+  620  docker-compose down
+  621  ./install.sh 
+  622  vi docker-compose.yml 
+  623  ls
+  624  docker container ls
+  625  ls
+  626  cd harbor/
+  627  ls
+  628  docker images;
+  629  ls
+  630  cd harbor/
+  631  ls
+  632  docker-compose down
+  633  docker-compose up
+  634  docker-compose down
+  635  docker ps -aq
+  636  ls
+  637  docker rm $(docker ps -aq)
+  638  docker ps 
+  639  ls
+  640  docker container ls
+  641  docker images;
+  642  docker rmi {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf,15102b9ebde6}
+  643  ls
+  644  docker images;
+  645  docker images
+  646  ls
+  647  rm -rvf *
+  648  ls
+  649  pwd
+  650  cd ..
+  651  ls
+  652  rm -rvf harbor
+  653  ls
+  654  tar xvf harbor-online-installer-v2.5.3.tgz 
+  655  ls
+  656  cd harbor/
+  657  ls
+  658  cp -rvf harbor.yml.tmpl harbor.yml
+  659  ls
+  660  vi harbor.yml
+  661  ls
+  662  ./install.sh 
+  663  ls
+  664  mkdir {data,log}
+  665  ./install.sh 
+  666  ls
+  667  vi harbor.yml
+  668  pwd
+  669  vi harbor.yml
+  670  ./install.sh 
+  671  docker-compose down
+  672  �ls -l
+  673  ls -l
+  674  ls
+  675  docker images;
+  676  docker container ls
+  677  docker ps -aq
+  678  docker ps
+  679  ls
+  680  docker images;
+  681  docker rmi -f {5dc5331f3de8,942de6829d43,fb1278854b91,91877cbc147a,ca36fb3b68a6,75e6a7496590,93a775677473,d78f9bbad9ee,bd50ae1eccdf,15102b9ebde6}
+  682  ls
+  683  rm -rvf *
+  684  ls
+  685  cd ..
+  686  ls
+  687  rm -rvf harbor
+  688  ls
+  689  �ls
+  690  ls
+  691  tar xvf harbor-online-installer-v2.5.3.tgz 
+  692  ls
+  693  cd harbor/
+  694  ls
+  695  pwd
+  696  mkdir {data,log}
+  697  ls
+  698  cp -rvf harbor.yml.tmpl harbor.yml
+  699  ls
+  700  pwd
+  701  ls
+  702  vi harbor.yml
+  703  ./install.sh 
+  704  vi harbor.yml
+  705  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  706  ls
+  707  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  708  ls
+  709  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  710  vi /etc/nginx/nginx.conf 
+  711  df -h
+  712  vi /etc/hosts
+  713  ls
+  714  cd easy-mock/
+  715  ls
+  716  git .git/config
+  717  vi .git/config 
+  718  ls
+  719  cd docker/
+  720  ls
+  721  cd ..
+  722  ls
+  723  find ./ -name 'production.json'
+  724  ls
+  725  cd easy-mock/
+  726  ls
+  727  history
+  728  ls
+  729  vi package.json 
+  730  npm run dev
+  731  ls
+  732  ping 24os.cn
+  733  ls
+  734  ping 24os.cn
+  735  ping baidu.com
+  736  ls
+  737  ssh 24os.cn
+  738  ls
+  739  vi history20220105.txt 
+  740  ls
+  741  pwd
+  742  mkdir www
+  743  cd www/
+  744  ls
+  745  vi index.html
+  746  cd ..
+  747  cd www/
+  748  ls
+  749  http-server index.html 
+  750  http-server ./
+  751  cd www/
+  752  http-server ./
+  753  vi ../history20220105.txt 
+  754  netstat -anp | grep 8080
+  755  kill -9 7990
+  756  netstat -anp | grep 8080
+  757  cd ..
+  758  ls
+  759  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  760  ls
+  761  pm2 list
+  762  cd certbot/
+  763  ls
+  764  cd ..
+  765  ls
+  766  vi history20220105.txt 
+  767  certbot certonly --preferred-challenges dns --manual  --email 55377146@qq.com -d *.youyong.ba -d youyong.ba
+  768  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  769  ll /etc/letsencrypt/live/youyong.ba/
+  770  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  771  ls
+  772  cd www/
+  773  http-server ./
+  774  ls
+  775  nginx -s reload
+  776  ls
+  777  http-server ./
+  778  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  779  ifconfig eth0
+  780  nmap 127.0.0.1
+  781  http-server ./
+  782  ls
+  783  nginx -s reload
+  784  ls
+  785  nginx -c /etc/nginx/conf.d/ssl_youyong_ba.conf
+  786  nginx -s stop
+  787  nmap 127.0.0.1
+  788  nginx -c /etc/nginx/conf.d/ssl_youyong_ba.conf
+  789  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  790  nginx -c /etc/nginx/nginx.conf 
+  791  nginx -s reload
+  792  http-server ./
+  793  ls
+  794  vi /etc/nginx/nginx.conf 
+  795  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  796  nginx -s stop
+  797  nginx -c /etc/nginx/nginx.conf 
+  798  nginx -s reload
+  799  nmap 127.0.0.1
+  800  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  801  nginx -s stop
+  802  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  803  nginx -s stop
+  804  nginx -s stop
+  805  nginx -c /etc/nginx/nginx.conf 
+  806  nginx -s reload
+  807  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  808  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  809  ll /etc/letsencrypt/live/youyong.ba/fullchain.pem 
+  810  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  811  vi /var/log/letsencrypt/letsencrypt.log
+  812  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  813  vi /etc/letsencrypt/renewal/youyong.ba.conf 
+  814  history
+  815  :q
+  816  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  817  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v --force-renewal
+  818  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  819  ls
+  820  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v --force-renewal
+  821  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba
+  822  certbot delete --cert-name youyong.ba
+  823  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba --force-renewal
+  824  ls
+  825  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba --force-renewal
+  826  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v --force-renewal
+  827  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v 
+  828  ls
+  829  rm -rvf /etc/letsencrypt/live/youyong.ba
+  830  ls
+  831  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v --force-renewal
+  832  certbot certonly --preferred-challenges dns --manual --force-renewal --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  833  certbot delete --cert-name youyong.ba
+  834  certbot certonly --preferred-challenges dns --manual --force-renewal --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v
+  835  ls
+  836  vi history
+  837  history
+  838  certbot delete --cert-name youyong.ba
+  839  certbot certonly --preferred-challenges dns --manual  --email 55377146@qq.com -d *.youyong.ba -d youyong.ba
+  840  certbot delete --cert-name youyong.ba
+  841  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v --force-renewal
+  842  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  843  ls
+  844  cd www/
+  845  ls
+  846  http-server -p 8087 ./
+  847  cd ..
+  848  certbot certonly --preferred-challenges dns --manual --email 55377146@qq.com -d *.youyong.ba -d youyong.ba -v --force-renewal
+  849  certbot certonly -d youyong.ba -d *.youyong.ba --manual --preferred-challenges dns --server https://acme-v02.api.letsencrypt.org/directory
+  850  vi /var/log/letsencrypt/letsencrypt.log
+  851  ls
+  852  pwd
+  853  ifconfig
+  854  ifconfig eth0
+  855  ls
+  856  pwd
+  857  unzip
+  858  yum install unzip
+  859  ls
+  860  unzip _.youyong.ba.zip 
+  861  ls
+  862  cd Nginx/
+  863  ls
+  864  pwd
+  865  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  866  nginx -c /etc/nginx/nginx.conf 
+  867  vi /etc/nginx/nginx.conf 
+  868  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  869  nginx -c /etc/nginx/nginx.conf 
+  870  nginx -s reload
+  871  nginx -s stop
+  872  nginx -s reload
+  873  nginx -c /etc/nginx/nginx.conf 
+  874  nginx -s reload
+  875  cd ..
+  876  ls
+  877  cd www/
+  878  ls
+  879  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  880  nginx -s stop
+  881  nginx -c /etc/nginx/nginx.conf 
+  882  nginx -s reload
+  883  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  884  ls
+  885  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  886  http-server -p 8086 ./
+  887  vi /etc/nginx/conf.d/ssl_youyong_ba.conf 
+  888  ls
+  889  certbot certonly  -d "youyong.ba" -d "*.youyong.ba" --manual --preferred-challenges dns-01  --server https://acme-v02.api.letsencrypt.org/directory
+  890  cd ..
+  891  ls
+  892  cd /etc/letsencrypt/live/
+  893  ls
+  894  vi README 
+  895  ls
+  896  certbot certonly  -d "youyong.ba" -d "*.youyong.ba" --manual --preferred-challenges dns-02  --server https://acme-v02.api.letsencrypt.org/directory
+  897  ls
+  898  cd www/
+  899  ls
+  900  vi index.html 
+  901  rm -rvf index.html 
+  902  git clone github.com/youyongba/toolhub.git
+  903  git clone https://github.com/youyongba/toolhub.git
+  904  vi ~/.ssh/id_rsa.pub 
+  905  git clone git@github.com:youyongba/toolhub.git
+  906  vi ~/.ssh/id_rsa.pub 
+  907  git clone git@github.com:youyongba/toolhub.git
+  908  cp /root/.ssh/known_hosts /root/.ssh/known_hosts_backup
+  909  sed -i '1d' /root/.ssh/known_hosts
+  910  git clone git@github.com:youyongba/toolhub.git
+  911  yarn run build
+  912  ls
+  913  cd toolhub/
+  914  ls
+  915  yarn run build
+  916  ls
+  917  yarn install
+  918  ls
+  919  node --version
+  920  nvm
+  921  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+  922  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+  923  ls
+  924  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+  925  vi ~/.bash_profile 
+  926  nvm
+  927  source ~/.bash_profile
+  928  source ~/.bashrc
+  929  vi ~/.bashrc 
+  930  nvm --version
+  931  ls
+  932  cd ..
+  933  ls
+  934  touch nvm_install.sh
+  935  vi nvm_install.sh 
+  936  sh nvm_install.sh 
+  937  git clone https://github.com/nvm-sh/nvm.git
+  938  git clone https://github.com/nvm-sh/nvm.git ~/.nvm
+  939  git clone https://gitee.com/polewt/nvm.git
+  940  ls
+  941  rm -rvf nvm
+  942  ls
+  943  git clone https://gitee.com/polewt/nvm.git ~/.nvm
+  944  cd ~/.nvm/
+  945  ls
+  946  vi ~/.bash_profile 
+  947  source ~/.bash_profile 
+  948  cd 
+  949  nvm
+  950  nvm install 16.14
+  951  nvm use 16.14
+  952  nvm install 16.14
+  953  nvm use 16.14
+  954  node --version
+  955  yarn run build
+  956  pwd
+  957  ls
+  958  cd www/toolhub/
+  959  ls
+  960  yarn run build
+  961  vi package.json 
+  962  npm run build
+  963  yarn add next
+  964  yarn run build
+  965  git branch
+  966  git pull origin HEAD
+  967  pm2 start ecosystem.config.js
+  968  pm2 status
+  969  pm2 list
+  970  ls
+  971  tree
+  972  ls
+  973  cd www/
+  974  ls
+  975  pm2 list
+  976  pm2 stop nextjs-app
+  977  ls
+  978  mkdir test
+  979  cd test/
+  980  ls
+  981  touch index.html
+  982  vi index.html 
+  983  ls
+  984  cd 
+  985  ls
+  986  cp OneSignalSDKWorker.js www/test/
+  987  cd www/test/
+  988  ls
+  989  http-server -p 8087 ./
+  990  cd www/test/
+  991  ls
+  992  http-server -p 8087 ./
+  993  cd www/test/
+  994  ls
+  995  http-server -p 8087 ./
+  996  nmap 127.0.0.1
+  997  ps aux | grep 8087
+  998  kill -9 20557
+  999  ls
+ 1000  vi index.html
+ 1001  http-server -p 8087 ./
+ 1002  vi index.html
+ 1003  http-server -p 8087 ./
+ 1004  vi index.html
+ 1005  history >> history.txt

@@ -1,0 +1,28 @@
+
+
+
+
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://cdn.onesignal.com https://onesignal.com 'unsafe-inline'">
+<!--    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>-->
+<!-- <script src="./script.js" defer></script>-->
+
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script>
+window.OneSignalDeferred = window.OneSignalDeferred || [];
+OneSignalDeferred.push(function(OneSignal) {
+OneSignal.init({
+appId: "c69b66af-cd7c-46bb-af0c-84ae4c7a951f",
+safari_web_id: "web.ba.youyong",
+notifyButton: {
+enable: true,
+},
+});
+});
+</script>
+</head>
+<body>
+    <h1>web push testing</h1>
+</body>
+</html>

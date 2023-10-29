@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://cdn.onesignal.com; img-src 'self' https://onesignal.com; 'nonce-RANDOM_NUMBER'">
+	<script nonce="RANDOM_NUMBER" src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script nonce="RANDOM_NUMBER">
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(function(OneSignal) {
+    OneSignal.init({
+      appId: "c69b66af-cd7c-46bb-af0c-84ae4c7a951f",
+    });
+  });
+</script>
+
+</head>
+<body>
+	<h1>web push testting</h1>
+</body>
+</html>
