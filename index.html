@@ -10,7 +10,10 @@
 
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
-  window.OneSignalDeferred = window.OneSignalDeferred || [];
+
+
+
+window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(function(OneSignal) {
     OneSignal.init({
       appId: "c69b66af-cd7c-46bb-af0c-84ae4c7a951f",
@@ -37,6 +40,35 @@
       },
     });
   });
+
+
+  // window.OneSignalDeferred = window.OneSignalDeferred || [];
+  // OneSignalDeferred.push(function(OneSignal) {
+  //   OneSignal.init({
+  //     appId: "c69b66af-cd7c-46bb-af0c-84ae4c7a951f",
+  //     safari_web_id: "web.ba.youyong",
+  //     notifyButton: {
+  //       enable: true,
+  //       text: {
+  //           'tip.state.unsubscribed': '点击订阅通知', // 当用户未订阅时显示的提示。
+  //           'tip.state.subscribed': '您已订阅通知', // 当用户已订阅时显示的提示。
+  //           'tip.state.blocked': '您已屏蔽通知', // 当用户阻止了通知时显示的提示。
+  //           'message.prenotify': '点击以订阅通知', // 当 prenotify 被启用且用户未订阅时显示的消息。
+  //           'message.action.subscribed': '感谢您的订阅！', // 用户点击按钮并成功订阅后的确认消息。
+  //           'message.action.resubscribed': '您已重新订阅通知', // 当用户重新订阅通知时的消息。
+  //           'message.action.unsubscribed': '您将不再收到通知', // 当用户取消订阅时的消息。
+  //           'dialog.main.title': '管理站点通知', // 管理通知的对话框标题。
+  //           'dialog.main.button.subscribe': '订阅', // 对话框中的订阅按钮文本。
+  //           'dialog.main.button.unsubscribe': '取消订阅', // 对话框中的取消订阅按钮文本。
+  //           'dialog.blocked.title': '解除通知屏蔽', // 当用户已阻止通知时显示的对话框标题。
+  //           'dialog.blocked.message': '按照以下指示允许通知：' // 提示用户如何取消阻止通知的消息。
+  //       },
+  //       showCredit: false,
+  //       theme: "inverse",
+
+  //     },
+  //   });
+  // });
 </script>
 </head>
 <body>
